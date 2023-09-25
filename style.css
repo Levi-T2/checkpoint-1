@@ -1,0 +1,249 @@
+.nav-bar {
+    background-color: aquamarine;
+    border-bottom: 0.3rem solid black;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.hero-bgImg {
+    background-image: url(https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    min-height: 65dvh;
+    background-size: cover;
+    background-position: top;
+    border-bottom: 0.3rem solid black;
+}
+
+.hero-txt-main {
+    padding: 5.5rem;
+    text-shadow: 3px 4px 8px black;
+}
+
+.icon-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 1rem;
+    font-size: 1.6em;
+}
+
+.hero-box {
+    display: flex;
+    position: absolute;
+    padding: 2rem 3rem 2rem 3rem;
+    border-radius: 5%;
+    background-color: aquamarine;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, .5);
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-1 {
+    background-color: white;
+    padding: 1.7rem;
+    border-radius: 4%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-2 {
+    background-color: white;
+    padding: 1.7rem;
+    border-radius: 4%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
+}
+
+.card-3 {
+    background-color: white;
+    padding: 1.7rem;
+    border-radius: 4%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* FIXME add min heights and tweak the max */
+
+.tree-Img {
+    max-height: 50dvh;
+    min-height: 35dvh;
+    max-width: 40dvh;
+    min-width: 40dvh;
+}
+
+.hero3-txt {
+    padding: 10rem 9rem 4rem 9rem;
+}
+
+.hero3-logo {
+    font-size: 4rem;
+}
+
+.btn-join {
+    background-color: aquamarine;
+}
+
+.hero-4 {
+    padding: 5rem;
+}
+
+/* FIXME Im not proud of this thing */
+
+.hero5-txt {
+    color: rgba(255, 0, 0, 0);
+}
+
+.forest-Img {
+    background-image: url(https://images.unsplash.com/photo-1494825514961-674db1ac2700?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    min-height: 40dvh;
+    background-size: cover;
+    background-position: center;
+}
+
+.form {
+    padding: 1rem;
+    padding-top: 0rem;
+}
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 20;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    background-color: var(--bs-form-control-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control-msg {
+    display: block;
+    width: 100%;
+    padding: 4rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 20;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    background-color: var(--bs-form-control-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control-ext {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    margin-left: .85rem;
+    font-size: 1rem;
+    font-weight: 20;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    background-color: var(--bs-form-control-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+.form-cls {
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, .5);
+}
+
+.form-btn {
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+    border-radius: 10%;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.form-test {
+    display: inline-flex;
+    padding-top: 1rem;
+}
+
+/* SECTION Utility Classes! */
+
+.bg-gray {
+    background-color: gray;
+}
+
+.bg-litegray {
+    background-color: rgb(182, 179, 179);
+}
+
+.text-shadow {
+    text-shadow: 4px 4px 5px black;
+}
+
+.ftn-marker {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.card-logo {
+    font-size: 2.5rem;
+}
+
+/* SECTION Media Rules */
+
+
+@media (max-width: 919px) {
+    .hero-bgImg {
+        max-width: 700dvh;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-txt-main {
+        display: none;
+    }
+
+    .hero-box {
+        position: static;
+    }
+
+    .hero2-row {
+        justify-content: center;
+    }
+
+    .hero-4 {
+        padding: 1.3rem;
+    }
+
+    .hero3-txt {
+        padding: 2rem;
+    }
+
+    .hero-box {
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+}
